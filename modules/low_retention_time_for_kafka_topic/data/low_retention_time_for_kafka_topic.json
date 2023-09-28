@@ -3,15 +3,7 @@
   "description": "This incident type occurs when the retention time for a Kafka topic is too low. Kafka is a distributed streaming platform that is commonly used for building real-time data pipelines and streaming applications. The retention time determines how long Kafka will retain messages in a topic before they are deleted. If the retention time is too low, it can cause issues such as data loss or incomplete processing of messages. Increasing the retention time can help prevent these problems and ensure that messages are available for processing for a longer period of time.",
   "params": [
     {
-      "name": "NEW_RETENTION_TIME_MS",
-      "value": ""
-    },
-    {
-      "name": "LOG_FILE_NAME",
-      "value": ""
-    },
-    {
-      "name": "BROKER_PORT",
+      "name": "BROKER_LOG_DIRECTORY",
       "value": ""
     },
     {
@@ -19,7 +11,19 @@
       "value": ""
     },
     {
+      "name": "NEW_RETENTION_TIME_MS",
+      "value": ""
+    },
+    {
+      "name": "BROKER_PORT",
+      "value": ""
+    },
+    {
       "name": "ZOOKEEPER_PORT",
+      "value": ""
+    },
+    {
+      "name": "TOPIC_NAME",
       "value": ""
     },
     {
@@ -27,11 +31,7 @@
       "value": ""
     },
     {
-      "name": "BROKER_LOG_DIRECTORY",
-      "value": ""
-    },
-    {
-      "name": "TOPIC_NAME",
+      "name": "LOG_FILE_NAME",
       "value": ""
     },
     {
