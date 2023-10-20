@@ -14,8 +14,8 @@ provider "shoreline" {
   debug = true
 }
 
-module "low_retention_time_for_kafka_topic" {
-  source    = "./modules/low_retention_time_for_kafka_topic"
+module "runbook_title_unknown" {
+  source    = "./modules/runbook_title_unknown"
 
   providers = {
     shoreline = shoreline
